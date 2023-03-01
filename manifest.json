@@ -1,7 +1,7 @@
 {
     "name": "Yegg",
     "description": "Show key image as grid view",
-    "version": "0.0.1",
+    "version": "1.0.2",
 
     "content_scripts": [{
         "matches": ["http://*/*", "https://*/*", "file:///*"],
@@ -13,6 +13,5 @@
        "128": "icon128.png"
     },
 
-    "permissions": ["activeTab"],
     "manifest_version": 3
 }
